@@ -38,3 +38,12 @@ This project implements a simple face detection system using OpenCV and Python. 
         -   Draw rectangles around the detected faces.
         -   Display the image.
         -   Save the modified image.
+
+## Analysis
+
+The project focuses on the initial steps of face detection:
+
+* **Load Haar Cascade Classifier**: The notebook loads a pre-trained Haar cascade classifier XML file.
+* **Load Image**: The notebook loads an image file.
+* **Detect Faces**: The notebook uses the Haar cascade classifier to detect faces in the image. The detected faces can then be used for further processing and analysis, such as determining the emotion, age, and gender of the detected faces.
+* **Draw Rectangles**: The notebook draws rectangles around the detected faces in the image.
